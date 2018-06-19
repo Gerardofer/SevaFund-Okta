@@ -16,6 +16,7 @@ function onAuthRequired({history}){
 class App extends Component {
   
   render() {
+    console.log(window.location.origin);
     return (
       <Router>
         <Security issuer="https://dev-920196.oktapreview.com/auth2/default"
