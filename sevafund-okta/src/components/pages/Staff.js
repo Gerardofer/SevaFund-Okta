@@ -19,8 +19,8 @@ class Staff extends Component {
         return(
             <div className="jumbotron">
                 <h1>Hello { currentUserName }</h1>
-                <h5>{ currentUserEmail }</h5>
-                <h3>Welcome to your portal</h3>
+                <p>Email: { currentUserEmail }</p>
+                <p>Welcome to your portal</p>
             </div>
         );
     }
